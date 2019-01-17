@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zxx">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sojung's PHP Form Assignment</title>
+
+<!--Remy Sharp Shim --> 
+<!--[if lte IE 9]> 
+<![endif]-->
+<link href="css/styles.css" type= "text/css" rel="stylesheet">
+
+</head>
+
+<body class = "home">
+    
+    
+    
+    <div id="wrapper">
+        
+        <main> 
+            <form name = "form" action = "formhandler.php" onsubmit ="return validateForm()" method ="GET">
+            
+<fieldset>
+<legend>Contact Info:</legend>
+<label>name*</label>
+<input type="text" name= "name">    
+<label>email*</label>
+<input type="email" name= "email">
+<label>phone i.e.(123)456-7890</label>
+<input type="tel" name= "phone" pattern="[\(]\d{3}[\)]\d{3}[\-]\d{4}">
+<label>state of residence</label>
+<input type ="text" name ="state">
+
+<input type="submit" name ="submit" value="Send it!" >
+</fieldset>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </form>
+        </main>
+        
+        <footer>
+            <ul>
+                <li>Copyright 2019 &copy;</li>
+                <li>All Rights Reserved</li>
+                <li><a href="../index.html">Sojung's Page</a></li>
+            </ul>
+        </footer>
+        
+    </div>    <!--end wrapper-->
+    
+    <p class = "valid"><a href = "https://validator.w3.org/check?uri=referer"><img src = "images/html5.png" alt = "HTML5 logo"></a></p>
+    
+   <script src = "myScript.js"></script>
+</body>
+    
+    
+</html>
