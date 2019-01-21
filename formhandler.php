@@ -6,10 +6,10 @@
     $phone = $_GET['tel'];
     $state = $_GET['state'];
     
-    echo $name;
-    echo $email;
-    echo $phone;
-    echo $state;
+    echo "You're name is ", $name"<br>";
+    echo "You're email is ", $email"<br>";
+    echo "Phone: "$phone"<br>";
+    echo "Email: "$state"<br>";
 
     
 
